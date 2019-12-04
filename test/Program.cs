@@ -6,8 +6,8 @@ namespace test
     {
         static void Main(string[] args)
         {
-            float[] arr = new float[] { 9.54f, 8.45f, 7.45f, 6.45f, 5.45f, 5.45f, 4.45f, 3.45f, 2, 1, 1 };
-            QSort<float> qSort = new QSort<float>(arr);
+            double[] arr = new double[] { 9.54f, 8.45f, 7.45f, 6.45f, 5.45f, 5.45f, 4.45f, 3.45f, 2, 1, 1 };
+            QSort<double> qSort = new QSort<double>(arr);
             DateTime beforDT = DateTime.Now;
 
             qSort.Sort();
